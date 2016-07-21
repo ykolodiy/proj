@@ -36,7 +36,7 @@ String fond = driver.findElement(By.id("resInfo-0")).getText();
 System.out.println("results for " +search +  " = " +fond);
 
 driver.quit();
-System.out.println("fuck you");
+System.out.println("fuck you 2");
 
 	}
 
