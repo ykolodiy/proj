@@ -1,4 +1,4 @@
-package searchGoogle;
+package office;
 
 import java.util.Scanner;
 
@@ -33,10 +33,10 @@ driver.findElement(By.id("q")).sendKeys(Keys.ENTER);
 Thread.sleep(2500);
 driver.switchTo().frame("googleSearchFrame"); 
 String fond = driver.findElement(By.id("resInfo-0")).getText();
-System.out.print("results for " +search +  " = " +fond);
+System.out.println("results for " +search +  " = " +fond);
 
 driver.quit();
-
+System.out.println("fuck");
 
 	}
 
